@@ -5,4 +5,5 @@ env/
 venv/
 ENV/
 env.bak/
-venv.bak/
+venv.bak/RF-NEW/outputs_rf/
+*.joblib
