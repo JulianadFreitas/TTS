@@ -414,11 +414,11 @@ def evaluate_rf_pre_post(
     data_path: str,
     pre_cols: List[str],
     post_only_cols: List[str],
-    results_root: str = "outputs_rf",
+    results_root: str = "outputs_rf_medium",
     random_state: int = 42,
     test_size: float = 0.2,
     cv_splits: int = 5,
-    search_method: str = "quick",  # "quick" | "medium" | "full" | "random"
+    search_method: str = "medium",  # "quick" | "medium" | "full" | "random"
     n_iter_random: int = 50,  # para RandomizedSearchCV
 ) -> None:
     """
@@ -633,7 +633,7 @@ if __name__ == "__main__":
     # ============================================================================
     # 
     # OPÇÃO 1 - RÁPIDO (RECOMENDADO PARA COMEÇAR): 15-30 minutos
-    SEARCH_METHOD = "quick"
+    SEARCH_METHOD = "medium"
     
     # OPÇÃO 2 - MUITO RÁPIDO (EXPLORAÇÃO): 10-20 minutos, 50 combinações aleatórias
     # SEARCH_METHOD = "random"
@@ -649,7 +649,7 @@ if __name__ == "__main__":
         data_path=DATA_PATH,
         pre_cols=PRE_COLS,
         post_only_cols=POST_ONLY_COLS,
-        results_root="outputs_rf_optimized",
+        results_root="outputs_rf_v3_medium_optimized",
         random_state=42,
         test_size=0.2,
         cv_splits=5,

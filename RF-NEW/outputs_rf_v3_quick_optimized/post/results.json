@@ -1,0 +1,20 @@
+{
+  "feature_set": "post",
+  "n_features": 172,
+  "search_method": "quick",
+  "elapsed_time_minutes": 3.88,
+  "best_cv_f1_macro": 0.6530431962475143,
+  "best_params": {
+    "clf__max_depth": null,
+    "clf__max_features": 0.5,
+    "clf__min_samples_leaf": 1,
+    "clf__min_samples_split": 10,
+    "clf__n_estimators": 200,
+    "clf__strategy": "none"
+  },
+  "test_metrics": {
+    "test_f1_macro": 0.6751210481747227,
+    "test_balanced_accuracy": 0.6609169672913812
+  },
+  "artifacts_dir": "outputs_rf_v3_quick_optimized/post"
+}

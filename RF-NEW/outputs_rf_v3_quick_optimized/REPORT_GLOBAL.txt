@@ -1,0 +1,11 @@
+Random Forest Experiments (PRE vs POST)
+
+Dataset: ../data/PREPROCESSED/Final_TtST_Dataset.csv
+Target: PR_lifetime
+Search method: quick
+CV splits: 5
+Test size: 0.2
+
+feature_set  n_features search_method  elapsed_time_min  best_cv_f1_macro best_strategy  test_f1_macro  test_balanced_accuracy                      artifacts_dir
+       post         172         quick              3.88          0.653043          none       0.675121                0.660917 outputs_rf_v3_quick_optimized/post
+        pre         163         quick              5.25          0.631324          none       0.655632                0.639881  outputs_rf_v3_quick_optimized/pre

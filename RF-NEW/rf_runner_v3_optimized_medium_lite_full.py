@@ -441,7 +441,7 @@ def evaluate_rf_pre_post(
     random_state: int = 42,
     test_size: float = 0.2,
     cv_splits: int = 5,
-    search_method: str = "quick",  # "quick" | "medium" | "full" | "random"
+    search_method: str = "medium",  # "quick" | "medium" | "full" | "random"
     n_iter_random: int = 50,  # para RandomizedSearchCV
 ) -> None:
     """
@@ -664,7 +664,7 @@ if __name__ == "__main__":
     # SEARCH_METHOD = "quick"
     
     # OPÇÃO 2 - MUITO RÁPIDO (EXPLORAÇÃO): 10-20 minutos, 50 combinações aleatórias
-    SEARCH_METHOD = "random"
+    SEARCH_METHOD = "medium-lite"
     
     # OPÇÃO 3 - BALANCEADO (MANTÉM undersample): 25-40 minutos, 108 combinações
     # SEARCH_METHOD = "medium-lite"
@@ -680,7 +680,7 @@ if __name__ == "__main__":
         data_path=DATA_PATH,
         pre_cols=PRE_COLS,
         post_only_cols=POST_ONLY_COLS,
-        results_root="outputs_rf_optimized",
+        results_root="outputs_rf_v3_optimized_medium_lite_full",
         random_state=42,
         test_size=0.2,
         cv_splits=5,
