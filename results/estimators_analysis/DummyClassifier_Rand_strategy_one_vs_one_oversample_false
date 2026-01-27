@@ -1,0 +1,12 @@
+Estimator: DummyClassifier
+Strategy: one_vs_one
+Oversample: False
+
+Internal Cross Validation (GridSearch)
+Best parameters: {}
+Best estimator: Pipeline(steps=[('clf',
+                 OneVsOneClassifier(estimator=DummyClassifier(random_state=42,
+                                                              strategy='uniform')))])
+External Cross Validation (cross_val_score)
+F1 weighted scores (averages): 
+0.010322362323056698

@@ -1,0 +1,10 @@
+Estimator: KNeighborsClassifier
+Strategy: one_vs_one
+Oversample: False
+
+Internal Cross Validation (GridSearch)
+Best parameters: {'clf__estimator__n_neighbors': 5}
+Best estimator: Pipeline(steps=[('clf', OneVsOneClassifier(estimator=KNeighborsClassifier()))])
+External Cross Validation (cross_val_score)
+F1 weighted scores (averages): 
+0.5302957014262482

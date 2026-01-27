@@ -1,0 +1,12 @@
+Estimator: LogisticRegression
+Strategy: one_vs_rest
+Oversample: True
+
+Internal Cross Validation (GridSearch)
+Best parameters: {'clf__estimator__C': 1.5, 'clf__estimator__tol': 0.0001}
+Best estimator: Pipeline(steps=[('smt', SMOTE()),
+                ('clf',
+                 OneVsRestClassifier(estimator=LogisticRegression(C=1.5)))])
+External Cross Validation (cross_val_score)
+F1 weighted scores (averages): 
+0.6122978878465147

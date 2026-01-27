@@ -1,0 +1,57 @@
+{
+    "No categories identified.": {
+        "precision": 0.5172413793103449,
+        "recall": 0.25951557093425603,
+        "f1-score": 0.3456221198156682,
+        "support": 289
+    },
+    "CF - Contribution flow": {
+        "precision": 1.0,
+        "recall": 0.002398081534772182,
+        "f1-score": 0.004784688995215311,
+        "support": 417
+    },
+    "CT \u2013 Choose a task": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 84
+    },
+    "TC \u2013 Talk to the community": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 499
+    },
+    "BW \u2013 Build local workspace": {
+        "precision": 0.44810211622438695,
+        "recall": 0.8935030140656397,
+        "f1-score": 0.5968680089485459,
+        "support": 1493
+    },
+    "DC \u2013 Deal with the code": {
+        "precision": 0.6180482686253935,
+        "recall": 0.47692307692307695,
+        "f1-score": 0.5383912248628885,
+        "support": 1235
+    },
+    "SC \u2013 Submit the changes": {
+        "precision": 0.6388888888888888,
+        "recall": 0.3511450381679389,
+        "f1-score": 0.45320197044334976,
+        "support": 131
+    },
+    "accuracy": 0.4930086788813886,
+    "macro avg": {
+        "precision": 0.46032580757843056,
+        "recall": 0.2833549688036691,
+        "f1-score": 0.2769811447236668,
+        "support": 4148
+    },
+    "weighted avg": {
+        "precision": 0.5020451481052326,
+        "recall": 0.4930086788813886,
+        "f1-score": 0.41400351160358195,
+        "support": 4148
+    }
+}

@@ -1,0 +1,11 @@
+Estimator: MultinomialNB
+Strategy: one_vs_rest
+Oversample: False
+
+Internal Cross Validation (GridSearch)
+Best parameters: {'clf__estimator__alpha': 0.5, 'clf__estimator__fit_prior': True}
+Best estimator: Pipeline(steps=[('clf',
+                 OneVsRestClassifier(estimator=MultinomialNB(alpha=0.5)))])
+External Cross Validation (cross_val_score)
+F1 weighted scores (averages): 
+0.6367952588021512

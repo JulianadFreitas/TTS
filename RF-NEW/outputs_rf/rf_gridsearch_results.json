@@ -1,0 +1,40 @@
+{
+  "best_params": {
+    "clf__base_estimator__max_depth": null,
+    "clf__base_estimator__max_features": "sqrt",
+    "clf__base_estimator__min_samples_leaf": 1,
+    "clf__base_estimator__min_samples_split": 2,
+    "clf__base_estimator__n_estimators": 500,
+    "clf__strategy": "none"
+  },
+  "best_cv_f1_macro": 0.635518251502207,
+  "test_f1_macro": 0.6508260981924398,
+  "test_balanced_accuracy": 0.6385146040805483,
+  "classification_report": "              precision    recall  f1-score   support\n\n           1     0.6704    0.5993    0.6329       302\n           2     0.6189    0.7390    0.6736       613\n           3     0.6168    0.5491    0.5810       428\n           4     0.7729    0.6667    0.7159       291\n\n    accuracy                         0.6506      1634\n   macro avg     0.6697    0.6385    0.6508      1634\nweighted avg     0.6553    0.6506    0.6493      1634\n",
+  "confusion_matrix": [
+    [
+      181,
+      113,
+      7,
+      1
+    ],
+    [
+      80,
+      453,
+      73,
+      7
+    ],
+    [
+      8,
+      136,
+      235,
+      49
+    ],
+    [
+      1,
+      30,
+      66,
+      194
+    ]
+  ]
+}

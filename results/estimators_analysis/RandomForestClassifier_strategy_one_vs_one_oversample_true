@@ -1,0 +1,13 @@
+Estimator: RandomForestClassifier
+Strategy: one_vs_one
+Oversample: True
+
+Internal Cross Validation (GridSearch)
+Best parameters: {'clf__estimator__n_estimators': 75}
+Best estimator: Pipeline(steps=[('smt', SMOTE()),
+                ('clf',
+                 OneVsOneClassifier(estimator=RandomForestClassifier(n_estimators=75,
+                                                                     n_jobs=-1)))])
+External Cross Validation (cross_val_score)
+F1 weighted scores (averages): 
+0.6259759824609243

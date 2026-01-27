@@ -1,0 +1,446 @@
+Label,Frequency,Kept_as_Feature
+scope: curriculum,708,True
+s-waiting-on-bors,683,True
+status: waiting review,662,True
+platform: learn,457,True
+author ready,450,True
+t-compiler,426,True
+full stack cert,403,True
+scope: i18n,376,True
+needs-ci,374,True
+lgtm,351,True
+size:xs,320,True
+engine,253,True
+🤖:docs,244,True
+merged-by-bors,210,True
+community,177,True
+t-libs,173,True
+autosubmit,169,True
+tool,169,True
+dependencies,164,True
+cq1,161,True
+framework,153,True
+commit-queue-squash,132,True
+doc,129,True
+t-bootstrap,128,True
+size:s,120,True
+dont-land-on-v20.x,112,True
+a-testsuite,108,True
+size:m,107,True
+size:l,107,True
+🤖:nit,103,True
+tests,101,True
+c++,89,True
+🤖:bug,81,True
+scope: tools/scripts,80,True
+test,80,True
+t-rustdoc,79,True
+🤖:release,75,True
+rollup,73,True
+f: material design,72,True
+c++ interop,67,True
+dont-land-on-v18.x,59,True
+meta,59,True
+ɑ: vector store,55,True
+build system,54,True
+branchautomerge,52,True
+perf-regression,46,True
+a-compiletest,46,True
+run-slow,45,True
+d: examples,44,True
+lib / src,44,True
+fast-track,43,True
+docs,43,True
+tools,43,True
+a-run-make,40,True
+platform: api,39,True
+crowdin-sync,39,True
+d: api docs,39,True
+new javascript course,39,True
+t-infra,37,True
+backported-to-v22.x,35,True
+build,35,True
+langchain,34,True
+semver-minor,34,True
+new english course,33,True
+a: text input,33,True
+lts-watch-v20.x,32,True
+perf-regression-triaged,32,True
+ɑ:  core,31,True
+module,31,True
+test_runner,30,True
+esm,29,True
+dont-land-on-v22.x,29,True
+a-meta,29,True
+skip-verify-files,28,True
+vision,28,True
+fs,27,True
+status: ready-for-review,27,True
+refactoring,27,True
+swift 6.1,27,True
+util,27,True
+status: waiting update,25,True
+a: desktop,24,True
+size:xl,24,True
+ɑ: doc loader,24,True
+sqlite,22,True
+ɑ: embeddings,22,True
+f: scrolling,21,True
+wg-trait-system-refactor,21,True
+size:xxl,20,True
+will affect goldens,20,True
+a: tests,19,True
+a-rustdoc-json,19,True
+crypto,19,True
+github_actions,19,True
+strip-types,18,True
+backport-requested-v20.x,17,True
+notable-change,17,True
+f: cupertino,17,True
+lts-watch-v18.x,16,True
+ci-spurious-fail-msvc,16,True
+o-windows,16,True
+o-unix,16,True
+bug,16,True
+c: flake,15,True
+🍒 release cherry pick,15,True
+ci-spurious-fail-mingw,15,True
+d: docs/,15,True
+backport-requested-v22.x,15,True
+disposition-merge,15,True
+t-libs-api,15,True
+finished-final-comment-period,15,True
+webgpu,15,True
+buffer,14,True
+needs-review,14,True
+open source,14,True
+a-code-coverage,14,True
+release,13,True
+type: code-quality,13,True
+llvm-main,13,True
+scope: ui,13,True
+relnotes,13,True
+a: accessibility,13,True
+windows,13,True
+cp: review,13,True
+warning: land on red to fix tree breakage,13,True
+v8 engine,13,True
+semver-major,12,True
+javascript,12,True
+web-standards,12,True
+project: gsoc,12,True
+processing,12,True
+submodules,12,True
+commit-queue-failed,11,True
+jabcon,11,True
+errors,11,True
+to-announce,11,True
+platform-ios,11,True
+f: integration_test,11,True
+openoffice/libreoffice,11,True
+platform-android,11,True
+ui,10,True
+backport-open-v22.x,10,True
+utils/log/libs,10,True
+ɑ: text splitters,10,True
+v22.x,10,True
+webcrypto,10,True
+experimental,10,True
+benchmark,9,False
+ci failed,9,False
+pg-exploit-mitigations,9,False
+a-query-system,8,False
+new model,8,False
+cp: beta,8,False
+f: routes,8,False
+backport,8,False
+ɑ: retriever,8,False
+multimodal,8,False
+beta-accepted,8,False
+tsl,8,False
+validation,8,False
+a-pretty,8,False
+beta-nominated,8,False
+cli,8,False
+assert,8,False
+process,8,False
+permission,8,False
+deprecations,8,False
+python,8,False
+needs-benchmark-ci,8,False
+v23.x,7,False
+documentation,7,False
+review wanted,7,False
+executorch,7,False
+webgl backend,7,False
+backport-blocked-v20.x,7,False
+backported-to-v18.x,7,False
+topic: not user facing,7,False
+cares,7,False
+backport-open-v20.x,7,False
+revert,7,False
+t-release,6,False
+a-docs,6,False
+c: tech-debt,6,False
+status: merge conflict,6,False
+new python course,6,False
+path,6,False
+net,6,False
+partner,6,False
+http2,6,False
+good to merge,6,False
+baking-for-lts,6,False
+p2p,6,False
+type: documentation,6,False
+stream,6,False
+coverage,6,False
+s-waiting-on-review,5,False
+http,5,False
+quic,5,False
+revert of,5,False
+optimization,5,False
+agents,5,False
+web streams,5,False
+refactor,5,False
+needs-citgm,5,False
+hot fix,5,False
+a: internationalization,5,False
+preferences,5,False
+odin project,5,False
+t-types,5,False
+f-default_field_values,5,False
+type: enhancement,5,False
+🤖:improvement,5,False
+zlib,5,False
+s-waiting-on-author,5,False
+dont-land-on-v23.x,5,False
+ciflow/inductor,5,False
+stale,4,False
+utxo db and indexes,4,False
+team,4,False
+type: feature,4,False
+search,4,False
+typings,4,False
+child_process,4,False
+timers,4,False
+os,4,False
+f: gestures,4,False
+rpc/rest/zmq,4,False
+addons,4,False
+f: focus,4,False
+autodiff,4,False
+a: animation,4,False
+cp: stable,4,False
+t-lang,4,False
+run-benchmark,4,False
+embedding,4,False
+o-powerpc,4,False
+trainer,4,False
+report,4,False
+o-wasi,4,False
+perf_hooks,4,False
+wallet,4,False
+worker,4,False
+node-api,4,False
+o-hermit,4,False
+platform-web,4,False
+quantization,4,False
+source maps,4,False
+fetcher,4,False
+gyp,4,False
+async_hooks,3,False
+playground transform,3,False
+a-attributes,3,False
+module: inductor,3,False
+contributor experience,3,False
+s-waiting-on-fcp,3,False
+npm,3,False
+url,3,False
+loaders,3,False
+icu,3,False
+team-infra,3,False
+a-driver,3,False
+v20.x,3,False
+libuv,3,False
+gui,3,False
+dgram,3,False
+events,3,False
+sdpa,3,False
+a-edition-2024,3,False
+slr,3,False
+modular,3,False
+whatwg-url,3,False
+deepspeed,3,False
+ai,3,False
+scripts and tools,3,False
+watch-mode,3,False
+o-aix,3,False
+async_local_storage,3,False
+hacktoberfest-accepted,3,False
+macos,3,False
+backport-blocked-v22.x,2,False
+performance,2,False
+f-derive_coerce_pointee,2,False
+status: blocked,2,False
+repl,2,False
+utoronto,2,False
+commit-queue-rebase,2,False
+l-tail_expr_drop_order,2,False
+ci-spurious-x86_64-apple-sigsegv-sigill,2,False
+ɑ: agent,2,False
+ɑ:  models,2,False
+gradle-wrapper,2,False
+distributed,2,False
+webassembly,2,False
+wasi,2,False
+needs test,2,False
+type: performance,2,False
+c-cleanup,2,False
+tx fees and policy,2,False
+cluster,2,False
+ci-no-td,2,False
+a-rust-for-linux,2,False
+backported-to-v23.x,2,False
+mempool,2,False
+team-text-input,2,False
+consensus,2,False
+cp: merge-to-beta,2,False
+package,2,False
+team-ecosystem,2,False
+a-translation,2,False
+product-awake,2,False
+i18n-api,2,False
+cp: approved,2,False
+f-dyn_star,2,False
+a-target-feature,2,False
+state space models,2,False
+v18.x,2,False
+a-spurious,2,False
+needs-fcp,2,False
+console,2,False
+d-diagnostic-infra,1,False
+f-trim-paths,1,False
+a-atomic,1,False
+a-const-generics,1,False
+-zrandomize-layout,1,False
+a-strict-provenance,1,False
+o-apple,1,False
+a-codegen,1,False
+a-cranelift,1,False
+a-inline-assembly,1,False
+f-anonymous_pipe,1,False
+l-unexpected_cfgs,1,False
+o-freebsd,1,False
+o-riscv,1,False
+a-thir,1,False
+o-motorola68k,1,False
+f-explicit_tail_calls,1,False
+l-improper_ctypes_definitions,1,False
+a-target-specs,1,False
+f-async_closure,1,False
+a-llvm,1,False
+o-wasm,1,False
+a-specialization,1,False
+a-parser,1,False
+o-loongarch,1,False
+o-windows-7,1,False
+l-if_let_rescope,1,False
+o-macos,1,False
+t-rustdoc-frontend,1,False
+a-thread-locals,1,False
+a-python,1,False
+a-debuginfo,1,False
+a-ci,1,False
+has-merge-commits,1,False
+t-opsem,1,False
+o-x86_32,1,False
+a-cli,1,False
+a-abi,1,False
+a-rustfmt,1,False
+a-mir-opt,1,False
+a-async-await,1,False
+core: modeling,1,False
+interfaces,1,False
+🤖:security,1,False
+fetch,1,False
+build-system,1,False
+internationalization,1,False
+maintable,1,False
+dark theme,1,False
+crash / freeze,1,False
+🔌: chroma,1,False
+13 security,1,False
+🤖:enhancement,1,False
+review club,1,False
+scope: a11y,1,False
+torch export,1,False
+mixture of experts,1,False
+tensor parallel,1,False
+onnx,1,False
+accelerate,1,False
+chat template,1,False
+benchmarks,1,False
+diagnostics_channel,1,False
+abortcontroller,1,False
+dns,1,False
+aix,1,False
+lts-watch-v22.x,1,False
+wip,1,False
+tsc-agenda,1,False
+loong64,1,False
+vm,1,False
+encoding,1,False
+readline,1,False
+tls,1,False
+promises,1,False
+code-and-learn,1,False
+backport-open-v18.x,1,False
+dotenv,1,False
+v8 module,1,False
+string_decoder,1,False
+backported-to-v20.x,1,False
+openssl,1,False
+linux,1,False
+audio,1,False
+generation,1,False
+core: tokenization,1,False
+module: rocm,1,False
+merged,1,False
+reverted,1,False
+ciflow/trunk,1,False
+release notes: cpp,1,False
+topic: bc breaking,1,False
+swift-xcodegen,1,False
+build-script,1,False
+concurrency,1,False
+swift macro,1,False
+source tooling,1,False
+continuous integration,1,False
+driver options,1,False
+test suite,1,False
+needs backport (27.x),1,False
+needs backport (28.x),1,False
+upstream,1,False
+mining,1,False
+release notes: releng,1,False
+module: python version,1,False
+issue-bug,1,False
+module: dynamo,1,False
+priority-0,1,False
+severity-high,1,False
+area-enterprise,1,False
+a: images,1,False
+team-framework,1,False
+workaround available,1,False
+team-release,1,False
+a: fidelity,1,False
+emergency,1,False
+☘️ new component,1,False
+⚙️ workflow,1,False
+release notes: fx,1,False
+fx,1,False
+release notes: dataloader,1,False
+module: cpu,1,False
+release notes: mps,1,False
+ciflow/mps,1,False
+i-libs-api-nominated,1,False
