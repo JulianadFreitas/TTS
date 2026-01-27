@@ -423,7 +423,7 @@ def evaluate_rf_pre_post(
             param_grid=param_grid,
             scoring="f1_macro",
             cv=cv,
-            n_jobs=-1,
+            n_jobs=1,
             verbose=2,
             refit=True,
         )
