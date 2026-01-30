@@ -22,14 +22,6 @@ This project develops and evaluates **Random Forest classifiers** to predict the
 
 ### Research Question
 > How can we accurately predict whether a PR will be merged within 24 hours, 1 week, 1 month, or longer based on code-level characteristics and historical label patterns?
-
-### Key Contributions
-- ✅ **Multi-repository dataset**: 15 GitHub projects with 10K+ PRs
-- ✅ **Feature engineering**: Code metrics + label indicator features
-- ✅ **Balanced comparison**: Full label features vs. count-only ablation
-- ✅ **Comprehensive analysis**: PRE/POST feature availability scenarios
-- ✅ **Publication-ready**: Reproducible pipeline with full metadata tracking
-
 ---
 
 ## 📁 Project Structure
@@ -63,83 +55,6 @@ TTS/
 ├── requirements.txt                  # Python dependencies
 └── README.md                          # This file
 ```
-
----
-
-## 🎯 Features
-
-### Code Metrics (from Pull Request data)
-- **Commits**: Number of commits, revisions, milestones
-- **Changes**: Lines of code, files changed, code change ratio
-- **Quality**: Test coverage, complexity metrics
-- **Timeline**: Creation date, review duration
-
-### Label Features (engineered)
-- `CONT_label_count`: Total number of labels applied
-- `CONT_label_*`: Binary indicator for each label type
-  - bug, enhancement, documentation, etc.
-
-### Feature Selection Modes
-- **PRE**: Initial code metrics only
-- **POST**: Code metrics + label features (available after PR creation)
-
-### Label Feature Ablation
-- **Full**: All CONT_label_* features (255 features)
-- **Count-only**: Aggregate count only (17 features)
-
----
-
-## 🔬 Experimental Design
-
-### Methodology
-1. **Data Preparation**: Clean, preprocess, and stratify PRs by lifetime
-2. **Feature Selection**: PRE/POST scenarios with/without label ablation
-3. **GridSearchCV**: Test 729 hyperparameter configurations
-4. **Balancing Strategies**: none, undersample, oversample
-5. **Evaluation**: Macro-F1 (CV) + F1-macro & Balanced Accuracy (test)
-6. **Analysis**: Comparative reports with statistical summaries
-
-### Hyperparameter Space
-```python
-{
-    "strategy": ["none", "undersample", "oversample"],
-    "n_estimators": [200, 500, 1000],
-    "max_depth": [None, 20, 40],
-    "max_features": ["sqrt", "log2", 0.5],
-    "min_samples_split": [2, 10, 20],
-    "min_samples_leaf": [1, 2, 4],
-}
-# Total combinations: 3^6 = 729 per CV fold
-```
-
----
-
-## 📈 Key Results
-
-### Performance Summary
-
-| Scenario | Feature Set | n_features | Test F1-Macro | Balanced Acc | CV Time (min) |
-|----------|-------------|-----------|---------------|--------------|---------------|
-| **With labels** | POST | 172 | **0.6731** | **0.659** | 86.98 |
-| With labels | PRE | 163 | 0.66 | 0.6435 | 80 |
-| No labels | POST | 25 | 0.6691 | 0.6551 | 81.77 |
-| No labels | PRE | 16 | 0.6593 | 0.6434 | 79.32 |
-
-### Key Insights
-- ✅ **Label features improve POST performance**: +0.4% F1-macro (full vs count-only)
-- ✅ **POST outperforms PRE**: +1.31% improvement with labels, +0.98% without
-- ✅ **"None" strategy performs best**: No resampling preserves natural distribution
-- ✅ **Feature count matters less than quality**: 25 vs 172 features achieve similar results
-
-### Balancing Strategy Impact (with labels)
-
-| Strategy | CV Macro-F1 (POST) | CV Macro-F1 (PRE) |
-|----------|-------------------|-------------------|
-| none | 0.6525 | 0.6302 |
-| oversample | 0.6398 | 0.6178 |
-| undersample | 0.6295 | 0.6086 |
-
----
 
 ## 🚀 Quick Start
 
@@ -199,16 +114,6 @@ python3 analyze_results.py \
 - `FINAL_REPORT.md`: Publication-ready Markdown report with plots
 - `plot_*.png`: Performance visualizations
 
----
-
-## 📚 Documentation
-
-- **[GridSearch Module](RF/gridsearch/README.md)**: Detailed documentation of the ML pipeline
-- **[Data Directory](data/README.md)**: Feature definitions and dataset information
-- **[Feature Engineering](RF/label_processor.py)**: Label feature extraction pipeline
-
----
-
 ## 🔄 Dataset Overview
 
 ### Repositories Analyzed
@@ -267,26 +172,7 @@ This project is designed for **full reproducibility**:
 ✅ **Artifact Export**
 - All results saved to JSON
 - Full CV grid outputs in CSV
-- Publication-ready Markdown reports
-
 ---
-
-## 📖 Citation
-
-If you use this project in your research, please cite:
-
-```bibtex
-@inproceedings{freitas2026predicting,
-  title={Predicting Pull Request Lifetime: A Multi-Repository Study},
-  author={Freitas, Juliana and Fronchetti, Felipe},
-  booktitle={2026 IEEE International Conference on Software Maintenance and Evolution (ICSME)},
-  year={2026},
-  organization={IEEE}
-}
-```
-
----
-
 ## 👥 Contact & Contributors
 
 - **Juliana Freitas** — Principal Researcher  
