@@ -5,8 +5,6 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0+-orange.svg)](https://scikit-learn.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Publication-ICSME%202026-brightgreen)](https://www.lsu.edu)
 
 *A publication-ready machine learning framework for predicting pull request lifetime in open-source software projects.*
 
@@ -180,12 +178,6 @@ This project is designed for **full reproducibility**:
 
 - **Felipe Fronchetti** — Advisor  
   📧 [ffronchetti@lsu.edu](mailto:ffronchetti@lsu.edu)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
