@@ -8,7 +8,7 @@
 
 *A publication-ready machine learning framework for predicting pull request lifetime in open-source software projects.*
 
-[Quick Start](#-quick-start) • [Features](#-features) • [Results](#-results) • [Contribute](#-contributing)
+[Quick Start](#-quick-start) • [Results](#-results) • [Contribute](#-contributing)
 
 </div>
 
