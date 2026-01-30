@@ -196,6 +196,4 @@ For major changes, please open an issue first to discuss proposed changes.
 
 **⭐ If you find this project useful, please consider starring it!**
 
-Made with ❤️ by the TTS Research Team at LSU
-
 </div>
