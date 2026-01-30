@@ -1,3 +1,0 @@
-feature_set,n_features,search_method,elapsed_time_min,best_cv_f1_macro,best_strategy,test_f1_macro,test_balanced_accuracy,artifacts_dir
-post,25,medium-lite,4.39,0.647839162025456,none,0.6620767251576494,0.6481172431075866,outputs_rf_v3_no_label_features/post
-pre,16,medium-lite,4.44,0.6305473511520598,none,0.6564980677133596,0.6416691938608113,outputs_rf_v3_no_label_features/pre

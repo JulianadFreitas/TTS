@@ -1,4 +1,0 @@
-param_clf__strategy,mean_test_score,std_test_score,rank_test_score,param_clf__n_estimators,param_clf__max_depth,param_clf__max_features,param_clf__min_samples_split,param_clf__min_samples_leaf
-none,0.647839162025456,0.007164181225255172,1,500,,sqrt,2,1
-oversample,0.6358989953189746,0.008558834667516108,35,500,20,sqrt,2,1
-undersample,0.6292481217053201,0.014539025232054376,63,500,,sqrt,2,1
