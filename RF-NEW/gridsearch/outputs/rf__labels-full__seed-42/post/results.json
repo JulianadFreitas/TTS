@@ -1,0 +1,21 @@
+{
+  "feature_set": "post",
+  "label_features_mode": "full",
+  "n_features": 172,
+  "search_method": "full (GridSearchCV)",
+  "elapsed_time_minutes": 86.98,
+  "best_cv_f1_macro": 0.6525339813473277,
+  "best_params": {
+    "clf__max_depth": null,
+    "clf__max_features": 0.5,
+    "clf__min_samples_leaf": 1,
+    "clf__min_samples_split": 10,
+    "clf__n_estimators": 200,
+    "clf__strategy": "none"
+  },
+  "test_metrics": {
+    "test_f1_macro": 0.6731476895944791,
+    "test_balanced_accuracy": 0.658979359581721
+  },
+  "artifacts_dir": "outputs/rf__labels-full__seed-42/post"
+}

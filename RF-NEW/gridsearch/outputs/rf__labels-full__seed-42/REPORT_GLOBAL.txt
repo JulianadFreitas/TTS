@@ -1,0 +1,13 @@
+Random Forest Experiments (PRE vs POST)
+
+Dataset: ../../data/PREPROCESSED/Final_TtST_Dataset.csv
+Data SHA256: 305b2d119c1b206d268206ad76c38b434869be796eacdbd843ed09c80af285fe
+Target: PR_lifetime
+Label features mode: full
+Search method: full (GridSearchCV)
+CV splits: 5
+Test size: 0.2
+
+feature_set label_features_mode  n_features  elapsed_time_min  best_cv_f1_macro best_strategy  test_f1_macro  test_balanced_accuracy                         artifacts_dir
+       post                full         172             86.98          0.652534          none       0.673148                0.658979 outputs/rf__labels-full__seed-42/post
+        pre                full         163             80.00          0.630202          none       0.660032                0.643525  outputs/rf__labels-full__seed-42/pre

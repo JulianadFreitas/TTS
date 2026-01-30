@@ -1,0 +1,21 @@
+{
+  "feature_set": "pre",
+  "label_features_mode": "count_only",
+  "n_features": 16,
+  "search_method": "full (GridSearchCV)",
+  "elapsed_time_minutes": 79.32,
+  "best_cv_f1_macro": 0.6350912019605202,
+  "best_params": {
+    "clf__max_depth": null,
+    "clf__max_features": 0.5,
+    "clf__min_samples_leaf": 1,
+    "clf__min_samples_split": 2,
+    "clf__n_estimators": 200,
+    "clf__strategy": "none"
+  },
+  "test_metrics": {
+    "test_f1_macro": 0.6593413455617615,
+    "test_balanced_accuracy": 0.6434191741126847
+  },
+  "artifacts_dir": "outputs/rf__labels-count_only__seed-42/pre"
+}

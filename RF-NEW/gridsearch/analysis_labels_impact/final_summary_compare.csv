@@ -1,0 +1,5 @@
+scenario,feature_set,n_features,search_method,elapsed_time_minutes,best_cv_f1_macro,best_strategy,test_f1_macro,test_balanced_accuracy
+with_labels,post,172,full (GridSearchCV),86.98,0.6525339813473277,none,0.6731476895944791,0.658979359581721
+with_labels,pre,163,full (GridSearchCV),80.0,0.6302021332919943,none,0.6600324147029627,0.643524888810076
+no_labels,post,25,full (GridSearchCV),81.77,0.6511841981279913,none,0.6691398807073938,0.6550631788153235
+no_labels,pre,16,full (GridSearchCV),79.32,0.6350912019605202,none,0.6593413455617615,0.6434191741126847

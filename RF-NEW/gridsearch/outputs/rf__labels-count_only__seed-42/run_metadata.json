@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-01-28T09:04:21.345423+00:00",
+  "data_path": "../../data/PREPROCESSED/Final_TtST_Dataset.csv",
+  "data_sha256": "305b2d119c1b206d268206ad76c38b434869be796eacdbd843ed09c80af285fe",
+  "target_col": "PR_lifetime",
+  "label_features_mode": "count_only",
+  "random_state": 42,
+  "test_size": 0.2,
+  "cv_splits": 5,
+  "modes": [
+    "pre",
+    "post"
+  ],
+  "pre_cols": [
+    "pr_number",
+    "CONT_repo",
+    "CONT_label_count",
+    "CONT_day_of_week",
+    "CONT_weekday",
+    "CONT_PR_text_wordiness",
+    "CODE_number_of_commits",
+    "CODE_lines_of_code_changed",
+    "CODE_number_of_files_changed",
+    "CODE_number_of_milestones",
+    "ORG_author_PRs_opened",
+    "ORG_PRs_opened_in_last_2_weeks",
+    "ORG_PRs_closed_in_last_2_weeks",
+    "ORG_open_PRs_at_open_date",
+    "ACT_time_since_last_commit",
+    "ACT_number_of_linked_issues"
+  ],
+  "post_only_cols": [
+    "CODE_number_of_revisions",
+    "ACT_number_of_comments",
+    "ACT_number_of_review_comments",
+    "ACT_number_of_reviewers",
+    "ACT_number_of_approvals",
+    "ACT_time_to_first_response",
+    "ACT_number_of_assignees",
+    "ACT_number_of_changes_requested",
+    "ACT_number_of_reviews_requested"
+  ],
+  "sklearn_version": "1.6.1",
+  "python_version": "3.9.18 (main, Apr 21 2025, 23:47:55)  [Clang 16.0.0 (clang-1600.0.26.6)]"
+}

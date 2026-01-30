@@ -1,0 +1,13 @@
+scenario,feature_set,param_clf__strategy,mean_test_score,std_test_score,rank_test_score,param_clf__n_estimators,param_clf__max_depth,param_clf__max_features,param_clf__min_samples_split,param_clf__min_samples_leaf
+with_labels,pre,none,0.6302021332919943,0.0138798492410687,1,1000,,0.5,2,2
+with_labels,pre,oversample,0.6177969400412713,0.0123334240073362,70,1000,20.0,0.5,2,1
+with_labels,pre,undersample,0.6085744215824435,0.016569694481702,136,1000,20.0,0.5,2,1
+with_labels,post,none,0.6525339813473277,0.00522228284548,1,200,,0.5,10,1
+with_labels,post,oversample,0.6398108243012051,0.0097185463185703,80,500,,0.5,10,1
+with_labels,post,undersample,0.6295005674501828,0.0134815479622538,200,500,,0.5,2,1
+no_labels,pre,none,0.6350912019605202,0.0101270833815872,1,200,,0.5,2,1
+no_labels,pre,oversample,0.6183247754022669,0.0154180105714257,154,500,20.0,0.5,2,1
+no_labels,pre,undersample,0.6076239855557886,0.0177582817195024,369,500,,0.5,2,2
+no_labels,post,none,0.6511841981279913,0.0100937217026419,1,500,,0.5,2,1
+no_labels,post,oversample,0.6401702137345466,0.0120348450447707,117,500,,0.5,2,2
+no_labels,post,undersample,0.6283736014648033,0.0083359670092453,418,1000,20.0,0.5,2,1

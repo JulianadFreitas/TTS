@@ -1,0 +1,36 @@
+Feature set: pre
+Label features mode: full
+Search method: full (GridSearchCV)
+Number of features: 163
+Elapsed time: 80.00 minutes
+Best CV macro-F1: 0.630202
+Best params: {'clf__max_depth': None, 'clf__max_features': 0.5, 'clf__min_samples_leaf': 2, 'clf__min_samples_split': 2, 'clf__n_estimators': 1000, 'clf__strategy': 'none'}
+
+Test metrics:
+- test_f1_macro: 0.660032
+- test_balanced_accuracy: 0.643525
+
+Best per strategy (CV):
+param_clf__strategy  mean_test_score  std_test_score  rank_test_score  param_clf__n_estimators param_clf__max_depth param_clf__max_features  param_clf__min_samples_split  param_clf__min_samples_leaf
+               none         0.630202        0.013880                1                     1000                 None                     0.5                             2                            2
+         oversample         0.617797        0.012333               70                     1000                   20                     0.5                             2                            1
+        undersample         0.608574        0.016570              136                     1000                   20                     0.5                             2                            1
+
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.6939    0.5629    0.6216       302
+           2     0.6201    0.7537    0.6804       613
+           3     0.6144    0.5771    0.5952       428
+           4     0.8182    0.6804    0.7430       291
+
+    accuracy                         0.6591      1634
+   macro avg     0.6867    0.6435    0.6600      1634
+weighted avg     0.6675    0.6591    0.6584      1634
+
+
+Confusion matrix:
+[[170 128   4   0]
+ [ 62 462  79  10]
+ [ 11 136 247  34]
+ [  2  19  72 198]]
